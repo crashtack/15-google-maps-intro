@@ -3,4 +3,22 @@ get a google.maps api key
 
 
   google places Api
-  
+
+Deploying to firebase.com:
+  Update index.html with firebase script and dependencies
+    <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyD_yMtkI6CNN6o8k1FaHEUh9jRx343nYKQ",
+        authDomain: "crashtack-301-test.firebaseapp.com",
+        databaseURL: "https://crashtack-301-test.firebaseio.com",
+        storageBucket: "crashtack-301-test.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+
+
+  $ sudo npm install -g firebase-tools
+
+  firebase init    // run from the root project directory to create firebase.json
