@@ -22,3 +22,7 @@ Deploying to firebase.com:
   $ sudo npm install -g firebase-tools
 
   firebase init    // run from the root project directory to create firebase.json
+  firebase deploy
+  https://crashtack-301-test.firebaseapp.com/
+
+  moved firebase script to it's own file
