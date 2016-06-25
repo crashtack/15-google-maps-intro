@@ -1,0 +1,6 @@
+get a google.maps api key
+  create a project
+
+
+  google places Api
+  
