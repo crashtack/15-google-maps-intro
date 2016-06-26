@@ -26,3 +26,4 @@ Deploying to firebase.com:
   https://crashtack-301-test.firebaseapp.com/
 
   moved firebase script to it's own file
+  firebase serve  // to run a local server
